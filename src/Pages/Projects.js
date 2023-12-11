@@ -1,7 +1,6 @@
 import React from "react";
 import Project from "../Components/Project";
 import { projectDetails } from "../Details";
-
 function Projects() {
   return (
     <main className="container mx-auto max-width pt-10 mb-20">
@@ -12,15 +11,19 @@ function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-10">
           {React.Children.toArray(
             projectDetails.map(
-              ({ title, image, description, techstack, previewLink, githubLink }) => (
-                <Project
-                  title={title}
-                  image={image}
-                  description={description}
-                  techstack={techstack}
-                  previewLink={previewLink}
-                  githubLink={githubLink}
-                />
+              ({ title, image, description, techstack,contexte, problematique, previewLink, githubLink }) => (
+                <div>
+                  <Project
+                    title={title}
+                    image={image}
+                    description={description}
+                    techstack={techstack}
+                    contexte={contexte}
+                    problematique={problematique}
+                    previewLink={previewLink}
+                    githubLink={githubLink}
+                    />
+                </div>
               )
             )
           )}
