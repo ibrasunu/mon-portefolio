@@ -22,7 +22,7 @@ function Project({ title, image, description, techstack, contexte, problematique
             >
               Live Preview
             </a> */}
-              <button onClick={() => setShowModal(true)} className="bg-red-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl">Plus d'infos</button>       
+              <button onClick={() => setShowModal(true)} className="bg-gray-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl">Plus d'infos</button>       
           </div>
             
           <div className="flex items-center">

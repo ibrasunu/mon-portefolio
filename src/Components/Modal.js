@@ -8,7 +8,7 @@ function Modal({
     previewLink,
 }) {
     const handleOnClose = (e) => {
-        if (e.target.id === "container") onClose();
+        if (e.target.id === ("container") || ("closecross")) onClose();
     };
     if (!visible) return null;
     return (
@@ -21,7 +21,7 @@ function Modal({
                     <h1 class="text-xl font-semibold text-red-900 dark:text-white">
                         {title}
                     </h1>
-                    {/* <button
+                    <button id="closecross"
                             type="button"
                             class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                             data-modal-hide="default-modal">
@@ -40,7 +40,7 @@ function Modal({
                                 />
                             </svg>
                             <span class="sr-only">Close modal</span>
-                        </button> */}
+                        </button>
                 </div>
 
                 <div class="p-4 md:p-5 space-y-4">
@@ -59,7 +59,7 @@ function Modal({
                 </div>
 
                 <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button
+                    {/* <button
                         data-modal-hide="default-modal"
                         type="button"
                         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -70,7 +70,7 @@ function Modal({
                             className="underline pl-2 font-light dark:text-white">
                             Live Preview
                         </a>
-                    </button>
+                    </button> */}
                     {/* <button
                             data-modal-hide="default-modal"
                             type="button"
