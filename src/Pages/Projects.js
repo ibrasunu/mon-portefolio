@@ -11,7 +11,7 @@ function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-10">
           {React.Children.toArray(
             projectDetails.map(
-              ({ title, image, description, techstack,contexte, problematique, previewLink, githubLink }) => (
+              ({ title, image, description, techstack,contexte, problematique, githubLink }) => (
                 <div>
                   <Project
                     title={title}
@@ -20,7 +20,6 @@ function Projects() {
                     techstack={techstack}
                     contexte={contexte}
                     problematique={problematique}
-                    previewLink={previewLink}
                     githubLink={githubLink}
                     />
                 </div>

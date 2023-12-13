@@ -38,7 +38,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Ibrahima BAH",
-  tagline: "Développeur web ",
+  tagline: "Développeur web  junior",
   img: profile,
   about: `Titulaire d'une maitrise de sciences de l'environnement, j'ai découvert l'informatique lors de ma formation scientifique et ai tout de suite accroché. J'ai par la suite
   décidé de me réorienter vers le développement web par le biais de l'offre de formation dîplomante d'OpenClassrooms afin de pouvoir exercer un métier qui me passionne.`,
@@ -46,10 +46,8 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
+  linkdein: "https://www.linkedin.com/in/ibrahima-bah-a20336212/",
   github: "https://github.com/ibrasunu/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
 };
 
 // Enter your Work Experience here

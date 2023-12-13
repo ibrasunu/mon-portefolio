@@ -6,14 +6,14 @@ function Footer() {
         Ibrahima BAH,{" "}
         <a
           className="font-medium"
-          href="https://pavanmg.in"
+          href="https://www.linkedin.com/in/ibrahima-bah-a20336212/"
           target="_blank"
           rel="noreferrer noopener"
         >
           tous droits réservés
         </a>{" "}
         
-        <span className="text-gradient font-medium"> 2023</span>
+        <span className="text-gray font-medium"> 2023</span>
       </p>
     </footer>
   );

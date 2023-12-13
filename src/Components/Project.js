@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "./Modal";
-function Project({ title, image, description, techstack, contexte, problematique, previewLink, githubLink }) {
+function Project({ title, image, description, techstack, contexte, problematique, githubLink }) {
   const [showModal, setShowModal] = useState(false)
   const handleOnClose = () => setShowModal(false)
   return (
@@ -14,14 +14,6 @@ function Project({ title, image, description, techstack, contexte, problematique
         </h3>
         <div className="flex justify-between items-center mt-5">
           <div className="flex items-center">
-            {/* <a
-              href={previewLink}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="underline pl-2 font-light dark:text-white"
-            >
-              Live Preview
-            </a> */}
               <button onClick={() => setShowModal(true)} className="bg-gray-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl">Plus d'infos</button>       
           </div>
             
