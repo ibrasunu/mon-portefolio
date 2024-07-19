@@ -53,6 +53,13 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "Agent de service",
+    Company: `Dofin`,
+    Location: "Montpellier",
+    Type: "CDI",
+    Duration: "Depuis 2016",
+  },
+  {
     Position: "Agent de service Hospitalier",
     Company: `Groupe Clinipôle`,
     Location: "Montpellier",
