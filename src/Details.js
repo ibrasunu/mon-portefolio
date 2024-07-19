@@ -117,7 +117,7 @@ export const projectDetails = [
     contexte :"La chaîne de librairies souhaite ouvrir un site de notation de livres qui permettra aux membres d'ajouter un nouveau livre et de mettre une note visible par le public. J'ai été chargé de développer la partie back end du site en Node.js.",
     problematique:"Dans ce projet, il a fallu suivre le cahier des charges fourni. J'ai commencé par créer le serveur et le routeur grâce au framework Express et paramétrer la base de données MongoDB grâce à la bibliothèque Mongoose. J'ai créé différents middlewares pour l'authentification, la gestion des requêtes multipart et pour le retraitement des images (green code). Enfin grâce aux méthodes HTTP, j'ai créé différents controleurs pour manipuler la base de données.",
     previewLink: "https://google.com",
-    githubLink: "https://github.com/ibrasunu/OcP7_mon_",
+    githubLink: "https://github.com/ibrasunu/OcP7_mon_vieux_grimoire",
   },
   {
     title: "Kasa",
