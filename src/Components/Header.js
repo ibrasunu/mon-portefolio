@@ -61,7 +61,7 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <a href="./CV_OPenC.pdf" download className="mt-5 md:mt-0 btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
+            <a href="../../CV_OPenC.pdf" download className="mt-5 md:mt-0 btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
               Mon CV
             </a>
           </li>

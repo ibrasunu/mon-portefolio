@@ -40,7 +40,7 @@ export const personalDetails = {
   name: "Ibrahima BAH",
   tagline: "Développeur web  junior",
   img: profile,
-  about: `Titulaire d'une maitrise de sciences de l'environnement, j'ai découvert l'informatique lors de ma formation scientifique et ai tout de suite accroché. J'ai par la suite
+    about: `Titulaire d'une matrise de sciences de l'environnement, j'ai découvert l'informatique lors de ma formation scientifique et ai tout de suite accroché. J'ai par la suite
   décidé de me réorienter vers le développement web par le biais de l'offre de formation dîplomante d'OpenClassrooms afin de pouvoir exercer un métier qui me passionne.`,
 };
 
@@ -75,7 +75,7 @@ export const eduDetails = [
     Company: "OpenClassrooms",
     Location: "À distance",
     Type: "Titre professionnel niveau III",
-    Duration: "Fev 2023 - Dec 2023",
+    Duration: "Fev 2023 - Jan 2024",
   },
   {
     Position: "Maîtrise Sciences de l'Environnement",
@@ -132,7 +132,7 @@ export const projectDetails = [
   {
     title: "Nina Carducci",
     image: projectImage3,
-    description: `Débugger et optimisez un site de photographe`,
+    description: `Débugger et optimiser un site de photographe`,
     techstack: "HTML/CSS, JavaScript",
     contexte :"Nina Carducci possède un portfolio comprenant beaucoup d'images. Son site n'est pas bien optimisé et quelques bugs sont présents. Après audit, je lui propose d'optimiser les images, le code et sa structure de son site et de corriger les bugs.",
     problematique:"Dans ce projet, il a fallu faire un audit LightHouse avant/après pour voir d'où venaient les soucis d'optimisation. J'ai donc travaillé sur l'optimisation des images (taille, format, etc), sur la minification des fichiers JS et CSS et sur l'optimisation SEO (notamment des rich snippets). Il a également fallu travailler sur l'accessibilité en réorganisant le code et en respectant les règles de la WCAG. J'ai enfin corrigé les bugs présents dans le code Javascript.",
