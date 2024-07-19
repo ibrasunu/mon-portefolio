@@ -81,7 +81,7 @@ export const eduDetails = [
     Position: "Développeur web",
     Company: "OpenClassrooms",
     Location: "À distance",
-    Type: "Titre professionnel niveau III",
+    Type: "Titre professionnel niveau 5",
     Duration: "Fev 2023 - Jan 2024",
   },
   {
