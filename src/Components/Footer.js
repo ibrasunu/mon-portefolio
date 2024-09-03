@@ -13,7 +13,7 @@ function Footer() {
           tous droits réservés
         </a>{" "}
         
-        <span className="text-gray font-medium"> 2023</span>
+        <span className="text-gray font-medium"> 2024</span>
       </p>
     </footer>
   );

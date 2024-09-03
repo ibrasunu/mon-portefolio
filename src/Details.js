@@ -1,4 +1,4 @@
-// Enter all your detials in this file
+// All detials in this file
 // Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
@@ -35,7 +35,7 @@ export const logos = {
   logo: logo,
 };
 
-// Enter your Personal Details here
+// Personal Details 
 export const personalDetails = {
   name: "Ibrahima BAH",
   tagline: "Développeur web  junior",
@@ -44,13 +44,13 @@ export const personalDetails = {
   décidé de me réorienter vers le développement web par le biais de l'offre de formation dîplomante d'OpenClassrooms afin de pouvoir exercer un métier qui me passionne.`,
 };
 
-// Enter your Social Media URLs here
+// Social Media URLs
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/ibrahima-bah-a20336212/",
   github: "https://github.com/ibrasunu/",
 };
 
-// Enter your Work Experience here
+// Work Experience 
 export const workDetails = [
   {
     Position: "Agent de service",
@@ -67,7 +67,7 @@ export const workDetails = [
     Duration: "Août 2015 - Dec 2022",
   },
   {
-    Position: "Contrôleur qualité des eaux",
+    Position: " Agent polyvalent contrôle qualité",
     Company: `Environnement Clean Services`,
     Location: "Nîmes",
     Type: "CDD",
@@ -75,7 +75,7 @@ export const workDetails = [
   }
 ];
 
-// Enter your Education Details here
+// Education Details
 export const eduDetails = [
   {
     Position: "Développeur web",
@@ -114,7 +114,7 @@ export const techStackDetails = {
   figma: figma,
 };
 
-// Enter your Project Details here
+// Project Details
 export const projectDetails = [
   {
     title: "Mon vieux grimoire",
@@ -178,7 +178,7 @@ export const projectDetails = [
   },
 ];
 
-// Enter your Contact Details here
+// Contact Details
 export const contactDetails = {
   email: "ibrasunu@gmail.com",
   phone: "+33 6 51 24 62 81",
