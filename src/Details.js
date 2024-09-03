@@ -154,7 +154,7 @@ export const projectDetails = [
     contexte :"Notre client Qwenta souhaite faire développer un 'Menu Maker', site permettant aux restaurateurs d'afficher et de mettre en page leurs menus facilement. J'ai été chargé de préparer et planifier le projet.",
     problematique:"Dans ce projet en AGILE, il a fallu commencer par développer un système de veille qui pourrait être réutilisé par l'équipe. Dans un second temps, il a fallu remplir les spécifications techniques du projet en justifiant mes choix. Enfin, j'ai dû faire la planification du projet via Trello à travers des KANBAN et un diagramme de GANTT et présenter tout cela au client.",
     previewLink: "https://google.com",
-    githubLink: "https://github.com/ibrasunu/",
+    githubLink: "https://github.com/ibrasunu",
   },
   {
     title: "Sophie Bluel",
